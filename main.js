@@ -8,7 +8,7 @@ var cells = document.getElementsByClassName('item'); // represents an array of D
 var storyboard = document.getElementById('result'); // storyboard shows the game status
 var reset = document.getElementById('reset');// the blue reset button
 
-var symbol = 'X'; // current Symbol weather its X or O
+var symbol = 'X'; // current Symbol whether its X or O
 var filledCells = 0;
 
 //virtual cells represents the virtual 2D Array of the cells so we can find out the winner
@@ -18,7 +18,7 @@ var virtualCells = [
     ['','','']    
 ];
 
-var finished = false; // shows weather the game is finished or not
+var finished = false; // shows whether the game is finished or not
 var result = ""; // keep track of the game result
 
 var sign = function(cell){
